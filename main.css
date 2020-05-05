@@ -1,3 +1,14 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    color: rgb(41, 39, 39);
+}
+
 .divided {
     display: flex;
 }
@@ -6,8 +17,44 @@
     width: 20%;
     margin-right: 5rem;
     margin-left: 2rem;
+    position: fixed;
+    font-size: 0.9rem;
+    line-height: 2.62;
+    border-right: 3px solid grey;
+    margin-bottom: 0;
+}
+
+.one h3 {
+    border-bottom: 1px solid grey;
 }
 
 .two {
-    width: 80%;
+    width: 70%;
+    margin-left: 20rem;
+}
+
+.header {
+    margin: 1.3rem 1.3rem;
+    font-size: 1.7rem;
+}
+
+.two p {
+    line-height: 1.4;
+    padding-left: 2rem;
+}
+
+.two ul {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: rgb(243, 243, 243);
+}
+
+.two ul li {
+    line-height: 1.4;
+    margin-left: 3.9rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }

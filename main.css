@@ -1,0 +1,13 @@
+.divided {
+    display: flex;
+}
+
+.one {
+    width: 20%;
+    margin-right: 5rem;
+    margin-left: 2rem;
+}
+
+.two {
+    width: 80%;
+}
